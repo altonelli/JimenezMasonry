@@ -1,0 +1,93 @@
+.thumbnail {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  text-align:center;
+  padding-bottom: calc(100% - 30px);
+  border-color: #6299c4;
+  background-color: #888888;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.proj1 {
+  background-image: url("../media/images/public/Courtroom/CourtroomJudgeWide.jpg");
+}
+
+.proj2 {
+  background-image: url("../media/images/public/Glass/RoomWithGlassFront.jpg");
+}
+
+.proj3 {
+  background-image: url("../media/images/public/Pavers/FrontWithStone.jpg");
+}
+
+.proj4 {
+  background-image: url("../media/images/public/Stairs/Staircase.jpg");
+}
+
+
+.main {
+  padding: 15px;
+}
+
+.main article {
+  margin: 15px;
+}
+
+.main h2 {
+  margin: 15px;
+}
+
+
+
+
+.thumbnail .caption {
+  color: #517fa4;
+  width:100%;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.95) 30%,rgba(255, 255, 255, 0.7));
+}
+
+.thumbnail-wrapper {
+  margin-bottom: 50px;
+}
+
+.proj-square{
+  position:relative;
+  overflow:hidden;
+  padding-bottom:100%;
+}
+
+.proj-square img{
+  position:absolute;
+}
+
+.modal-content {
+  border-color: #6299c4;
+  border-color: #98c2e2;
+  border-width: 1px;
+  border-radius: 0px;
+  /*background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);*/
+}
+
+.carousel-indicators > li {
+  border-color: #70afd8;
+  border-color: white;
+}
+
+.modal .glyphicon {
+  color: #70afd8;
+  color: white;
+}
+
+.modal-header {
+  border-color: #98c2e2;
+}
+.modal-footer {
+  border-color: #98c2e2;
+}
+
